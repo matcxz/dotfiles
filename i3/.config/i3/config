@@ -2,7 +2,7 @@
 set $mod Mod4
 
 # Font
-font pango:Hack 12
+font pango:JetBrainsMono Nerd Font, Noto Color Emoji 10
 
 # Gaps
 default_border pixel 2
@@ -14,7 +14,10 @@ hide_edge_borders both
 
 # Resolution & Wallpaper
 exec_always --no-startup-id xrandr --output LVDS-1 --mode "1024x600"
-exec_always --no-startup-id feh --bg-fill /home/matheus/wallpapers/wall.jpg
+exec_always --no-startup-id feh --bg-fill /home/matheus/wallpapers/Kurumi-Ebisuzawa.png
+# Random
+#exec_always --no-startup-id feh --randomize --bg-fill /home/matheus/wallpapers/*
+
 
 # Polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
@@ -63,7 +66,7 @@ bindsym $mod+Return exec st
 bindsym $mod+Shift+q kill
 
 # start program launcher
-bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id rofi -show drun
 
 # suspend
 bindsym $mod+Shift+f exec systemctl suspend
