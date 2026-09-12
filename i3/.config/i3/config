@@ -14,7 +14,7 @@ hide_edge_borders both
 
 # Resolution & Wallpaper
 exec_always --no-startup-id xrandr --output LVDS-1 --mode "1024x600"
-exec_always --no-startup-id feh --bg-fill /home/matheus/wallpapers/Kurumi-Ebisuzawa.png
+exec_always --no-startup-id feh --bg-fill /home/matheus/wallpapers/lain.jpg
 # Random
 #exec_always --no-startup-id feh --randomize --bg-fill /home/matheus/wallpapers/*
 
