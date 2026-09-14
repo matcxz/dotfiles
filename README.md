@@ -36,7 +36,7 @@ This repository was created to store and preserve my dotfiles to use as a backup
 These dotfiles are managed with [GNU Stow](https://www.gnu.org/software/stow/).
 
 ```bash
-git clone https://github.com/matheusc457/dotfiles ~/dotfiles
+git clone https://github.com/mathzx0/dotfiles ~/dotfiles
 cd ~/dotfiles
 stow bash vim x11 fastfetch foot fuzzel i3 mako polybar rofi sway waybar wallpapers
 ```
