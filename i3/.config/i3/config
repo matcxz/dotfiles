@@ -60,7 +60,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # Start terminal
-bindsym $mod+Return exec st
+bindsym $mod+Return exec xfce4-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
