@@ -15,8 +15,7 @@ smart_borders on
 hide_edge_borders both
 
 # Resolution & Wallpaper
-exec_always --no-startup-id ~/.config/i3/resolution.sh
-exec_always --no-startup-id feh --bg-fill /home/matheus/wallpapers/catppuccin.jpg
+exec_always --no-startup-id ~/.config/i3/resolution.sh && sleep 1 && feh --bg-fill /home/matheus/wallpapers/blue-anime-girl.jpg
 
 # Polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh

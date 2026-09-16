@@ -1,9 +1,0 @@
-[app-name=wp-vol]
-layer=overlay
-history=0
-anchor=top-center
-group-by=app-name
-format=<b>%s</b>\n%b
-
-[app-name=volume group-index=0]
-invisible=0
