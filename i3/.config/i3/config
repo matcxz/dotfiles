@@ -6,16 +6,16 @@ font pango:JetBrainsMono Nerd Font, Noto Color Emoji 10
 
 # Gaps
 default_border pixel 2
-default_floating_border none
 
 gaps inner 8
 gaps outer 4
 
-smart_borders on
 hide_edge_borders both
 
 # Resolution & Wallpaper
-exec_always --no-startup-id ~/.config/i3/resolution.sh && sleep 1 && feh --bg-fill /home/matheus/wallpapers/catppuccin.jpg
+#exec_always --no-startup-id ~/.config/i3/resolution.sh && sleep 1 && feh --bg-fill /home/matheus/wallpapers/catppuccin.jpg
+
+exec_always --no-startup-id feh --bg-fill ~/wallpapers/catppuccin.jpg
 
 # Polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
@@ -49,7 +49,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 client.focused          #89b4fa #89b4fa #1e1e2e #89b4fa   #89b4fa
 client.focused_inactive #313244 #313244 #cdd6f4 #45475a   #313244
 client.unfocused        #1e1e2e #1e1e2e #6c7086 #313244   #1e1e2e
-client.urgent            #f38ba8 #f38ba8 #1e1e2e #f38ba8   #f38ba8
+client.urgent           #f38ba8 #f38ba8 #1e1e2e #f38ba8   #f38ba8
 client.placeholder      #1e1e2e #1e1e2e #cdd6f4 #1e1e2e   #1e1e2e
 
 client.background       #1e1e2e
@@ -60,7 +60,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # Start terminal
-bindsym $mod+Return exec xfce4-terminal
+bindsym $mod+Return exec st
 
 # kill focused window
 bindsym $mod+Shift+q kill

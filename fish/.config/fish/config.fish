@@ -19,7 +19,7 @@ alias rm='rm -rf'
 
 #alias sudo='doas'
 alias cd='z'
-alias fast='fastfetch -c examples/8.jsonc'
+alias fast='fastfetch'
 
 
 # Zoxide

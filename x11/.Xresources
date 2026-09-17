@@ -1,82 +1,38 @@
-XTerm.termName: xterm-256color
+!st.font: JetBrainsMono Nerd Font Mono:size=11
+!st.font2: Noto Color Emoji:pixelsize=11:antialias=true:autohint=false
 
-! ## Set font and fontsize ##
-XTerm*renderFont: true
-! XTerm*faceName: JetBrains Mono Nerd Font
-XTerm*faceName: CaskaydiaCove Nerd Font Mono
-XTerm*faceSize: 14
-XTerm*utf8: 1
+st.background: #1e1e2e
+st.foreground: #cdd6f4
+st.cursorColor: #f5e0dc
 
-! Remove internal border
-XTerm*internalBorder: 6
-XTerm*borderWidth: 0
+! black
+st.color0: #45475a
+st.color8: #585b70
 
-! Cursor blink
-XTerm*cursorBlink: false
+! red
+st.color1: #f38ba8
+st.color9: #f38ba8
 
-! Cursor theme
-Xcursor.theme: Bibata-Modern-Classic
-Xcursor.size: 18
+! green
+st.color2: #a6e3a1
+st.color10: #a6e3a1
 
-! Scroll to bottom when typing
-XTerm*scrollKey: true
-XTerm*scrollTtyOutput: false
+! yellow
+st.color3: #f9e2af
+st.color11: #f9e2af
 
-! VT Font Menu: Unreadable
-XTerm*faceSize1: 8
-! VT Font Menu: Tiny
-XTerm*faceSize2: 10
-! VT Font Menu: Small
-XTerm*faceSize3: 12
-! VT Font Menu: Medium
-XTerm*faceSize4: 16
-! VT Font Menu: Large
-XTerm*faceSize5: 22
-! VT Font Menu: Huge
-XTerm*faceSize6: 24
+! blue
+st.color4: #89b4fa
+st.color12: #89b4fa
 
-! ## Scrollbar ##
-XTerm*vt100.scrollBar: false
+! magenta
+st.color5: #f5c2e7
+st.color13: #f5c2e7
 
-! Do not scroll when there is new input
-XTerm*scrollTtyOutput: false
+! cyan
+st.color6: #94e2d5
+st.color14: #94e2d5
 
-! Scrolling by using Shift-PageUp / Shift-PageDown or mousewheel by default ##
-! Lines of output you can scroll back over
-XTerm*saveLines: 15000
-
-! Enable copy/paste hotkeys (mouse highlight = copy, shift+Insert = paste)
-XTerm*selectToClipboard: true
-
-! ## Select text ##
-XTerm*highlightSelection: true
-! Remove trailing spaces
-XTerm*trimSelection: true
-
-! ## Keybindings ##
-XTerm*vt100.translations: #override \n\
-  Ctrl <Key>-: smaller-vt-font() \n\
-  Ctrl <Key>+: larger-vt-font() \n\
-  Ctrl <Key>0: set-vt-font(d) \n\
-  Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
-  Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
-
-! Dracula Xresources palette
-*.foreground: #F8F8F2
-*.background: #282A36
-*.color0:     #000000
-*.color8:     #4D4D4D
-*.color1:     #FF5555
-*.color9:     #FF6E67
-*.color2:     #50FA7B
-*.color10:    #5AF78E
-*.color3:     #F1FA8C
-*.color11:    #F4F99D
-*.color4:     #BD93F9
-*.color12:    #CAA9FA
-*.color5:     #FF79C6
-*.color13:    #FF92D0
-*.color6:     #8BE9FD
-*.color14:    #9AEDFE
-*.color7:     #BFBFBF
-*.color15:    #E6E6E6
+! white
+st.color7: #bac2de
+st.color15: #a6adc8
