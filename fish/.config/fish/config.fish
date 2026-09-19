@@ -10,6 +10,7 @@ alias ll='eza -lah --icons always'
 alias la='eza -a --icons always'
 alias l='eza -lah --icons always'
 
+alias v='vim'
 alias vim='nvim'
 alias pacs='doas pacman -S'
 alias pacsyu='doas pacman -Syu'
