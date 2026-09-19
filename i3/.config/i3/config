@@ -13,9 +13,7 @@ gaps outer 4
 hide_edge_borders both
 
 # Resolution & Wallpaper
-#exec_always --no-startup-id ~/.config/i3/resolution.sh && sleep 1 && feh --bg-fill /home/matheus/wallpapers/catppuccin.jpg
-
-exec_always --no-startup-id feh --bg-fill ~/wallpapers/evening-sky.png
+exec_always --no-startup-id feh --bg-fill ~/wallpapers/10.jpg
 
 # Polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
@@ -66,7 +64,7 @@ bindsym $mod+Return exec st
 bindsym $mod+Shift+q kill
 
 # start program launcher
-bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id rofi -show drun -theme catppuccin
 
 # suspend
 bindsym $mod+Shift+f exec systemctl suspend

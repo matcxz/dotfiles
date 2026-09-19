@@ -1,4 +1,3 @@
-# Disable greeting
 set fish_greeting ""
 
 # Path
@@ -18,10 +17,10 @@ alias pacrns='doas pacman -Rns'
 
 alias rm='rm -rf'
 
-#alias sudo='doas'
 alias cd='z'
 alias fast='fastfetch'
 
-
 # Zoxide
 zoxide init fish | source
+
+pfetch
