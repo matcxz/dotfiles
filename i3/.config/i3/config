@@ -16,7 +16,7 @@ hide_edge_borders both
 exec_always --no-startup-id feh --bg-fill ~/wallpapers/10.jpg
 
 # Polybar
-exec_always --no-startup-id ~/.config/polybar/launch.sh
+exec_always --no-startup-id ~/.config/polybar/scripts/launch.sh
 
 # xset
 exec_always --no-startup-id xset s off
