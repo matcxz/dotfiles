@@ -36,3 +36,7 @@ st.color14: #94e2d5
 ! white
 st.color7: #bac2de
 st.color15: #a6adc8
+
+! cursor
+Xcursor.theme: Bibata-Modern-Classic
+Xcursor.size: 16
