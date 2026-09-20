@@ -32,3 +32,5 @@ function starship_transient_prompt_func
 end
 
 enable_transience
+
+pfetch
