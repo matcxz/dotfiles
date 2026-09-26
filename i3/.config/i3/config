@@ -13,7 +13,7 @@ gaps outer 4
 hide_edge_borders both
 
 # Resolution & Wallpaper
-exec_always --no-startup-id feh --bg-fill ~/wallpapers/11.jpg
+exec_always --no-startup-id feh --bg-fill ~/wallpapers/10.jpg
 
 # Polybar
 exec_always --no-startup-id ~/.config/polybar/scripts/launch.sh
@@ -55,13 +55,15 @@ client.placeholder      #1e1e2e #1e1e2e #cdd6f4 #1e1e2e   #1e1e2e
 
 client.background       #1e1e2e
 
+# comtpon
+exec --no-startup-id compton &
 
 # Use Mouse+$mod for floating windows
 floating_modifier $mod
 tiling_drag modifier titlebar
 
 # Start terminal
-bindsym $mod+Return exec xfce4-terminal
+bindsym $mod+Return exec st
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -69,8 +71,7 @@ bindsym $mod+Shift+q kill
 # start program launcher
 bindsym $mod+d exec --no-startup-id rofi -show drun
 
-# suspend
-bindsym $mod+Shift+f exec systemctl suspend
+bindsym $mod+Shift+Return exec thunar
 
 # change focus
 bindsym $mod+j focus left
@@ -101,7 +102,7 @@ bindsym $mod+h split h
 bindsym $mod+v split v
 
 # fullscreen mode
-bindsym $mod+f fullscreen toggle
+bindsym $mod+Shift+f fullscreen toggle
 
 # change container layout
 bindsym $mod+s layout stacking
