@@ -34,6 +34,11 @@ exec --no-startup-id dex --autostart --environment i3
 # Start NetworkManager
 exec --no-startup-id nm-applet
 
+# Pipewire
+exec --no-startup-id pipewire
+exec --no-startup-id pipewire-pulse
+exec --no-startup-id wireplumber
+
 # Polkit
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
@@ -58,7 +63,7 @@ client.placeholder      #1e1e2e #1e1e2e #cdd6f4 #1e1e2e   #1e1e2e
 client.background       #1e1e2e
 
 # comtpon
-exec --no-startup-id compton &
+#exec --no-startup-id compton &
 
 # Use Mouse+$mod for floating windows
 floating_modifier $mod
