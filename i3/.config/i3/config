@@ -12,6 +12,8 @@ gaps outer 4
 
 hide_edge_borders both
 
+smart_gaps on
+
 # Resolution & Wallpaper
 exec_always --no-startup-id feh --bg-fill ~/wallpapers/10.jpg
 
