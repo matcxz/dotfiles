@@ -1,9 +1,5 @@
 set fish_greeting ""
 
-# Path
-fish_add_path ~/.local/bin
-fish_add_path /nix/var/nix/profiles/default/bin
-
 # Alias
 alias ls='eza --icons always'
 alias ll='eza -lah --icons always'
@@ -33,3 +29,8 @@ function starship_transient_prompt_func
 end
 
 enable_transience
+
+# Nix
+if test -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.fish'
+  . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.fish'
+end

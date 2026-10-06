@@ -2,11 +2,15 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# Path
+export PATH="/opt/zig:$PATH"
+
 # Alias
 alias ls='eza --color always'
 alias ll='eza -lah --color always'
 alias la='eza -a --color always'
 alias l='eza -lah --color always'
+alias rel="xrdb merge ~/.Xresources && kill -USR1 $(pidof st)"
 #alias ls='eza --icons always'
 #alias ll='eza -lah --icons always'
 #alias la='eza -a --icons always'
