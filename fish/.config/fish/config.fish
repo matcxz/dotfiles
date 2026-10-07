@@ -11,6 +11,7 @@ alias pacs='doas pacman -S'
 alias pacsyu='doas pacman -Syu'
 alias pacrns='doas pacman -Rns'
 alias pacr='doas pacman -R'
+alias cat='bat --theme="Catppuccin Mocha" --paging=never'
 
 alias rm='rm -rf'
 
