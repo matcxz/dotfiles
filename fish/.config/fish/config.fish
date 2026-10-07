@@ -32,5 +32,15 @@ enable_transience
 
 # Nix
 if test -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.fish'
-  . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.fish'
+    source '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.fish'
+end
+
+# Nix user profile
+fish_add_path ~/.nix-profile/bin
+
+# Nix desktop applications
+if set -q XDG_DATA_DIRS
+    set -gx XDG_DATA_DIRS "$XDG_DATA_DIRS:$HOME/.nix-profile/share"
+else
+    set -gx XDG_DATA_DIRS "/usr/local/share:/usr/share:$HOME/.nix-profile/share:/nix/var/nix/profiles/default/share"
 end
