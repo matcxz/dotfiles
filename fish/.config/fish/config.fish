@@ -6,7 +6,7 @@ alias ll='eza -lah --icons always'
 alias la='eza -a --icons always'
 alias l='eza -lah --icons always'
 
-alias vim='nvim'
+#alias vim='nvim'
 alias pacs='doas pacman -S'
 alias pacsyu='doas pacman -Syu'
 alias pacrns='doas pacman -Rns'

@@ -15,7 +15,7 @@ smart_gaps on
 hide_edge_borders both
 
 # Resolution & Wallpaper
-exec_always --no-startup-id feh --bg-fill ~/wallpapers/31.jpg
+exec_always --no-startup-id feh --bg-fill ~/wallpapers/23.jpg
 
 # Polybar
 exec_always --no-startup-id ~/.config/polybar/scripts/launch.sh
@@ -59,7 +59,7 @@ client.placeholder      #1e1e2e #1e1e2e #cdd6f4 #1e1e2e   #1e1e2e
 client.background       #1e1e2e
 
 # comtpon
-#exec --no-startup-id compton &
+# exec --no-startup-id compton &
 
 # Use Mouse+$mod for floating windows
 floating_modifier $mod
@@ -72,7 +72,8 @@ bindsym $mod+Return exec st
 bindsym $mod+Shift+q kill
 
 # start program launcher
-bindsym $mod+d exec --no-startup-id rofi -show drun
+bindsym $mod+d exec dmenu_run
+#bindsym $mod+d exec rofi -show drun
 
 bindsym $mod+Shift+Return exec thunar
 
