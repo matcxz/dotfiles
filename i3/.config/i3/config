@@ -15,7 +15,7 @@ smart_gaps on
 hide_edge_borders both
 
 # Resolution & Wallpaper
-exec_always --no-startup-id feh --bg-fill ~/wallpapers/23.jpg
+exec_always --no-startup-id feh --bg-fill ~/wallpapers/8.jpg
 
 # Polybar
 exec_always --no-startup-id ~/.config/polybar/scripts/launch.sh
