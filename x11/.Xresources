@@ -1,35 +1,30 @@
+! Tokyo Night
 st.borderpx: 7
 
-st.background: #1e1e2e
-st.foreground: #cdd6f4
-st.cursorColor: #f5e0dc
+st.background: #1a1b26
+st.foreground: #c0caf5
+st.cursorColor: #c0caf5
+st.reverseVideo: false
 
-st.selectionbg: #585b70
-st.selectionfg: #cdd6f4
+! Normal colors
+st.color0:  #15161e
+st.color1:  #f7768e
+st.color2:  #9ece6a
+st.color3:  #e0af68
+st.color4:  #7aa2f7
+st.color5:  #bb9af7
+st.color6:  #7dcfff
+st.color7:  #a9b1d6
 
-st.color0: #45475a
-st.color8: #585b70
-
-st.color1: #f38ba8
-st.color9: #f38ba8
-
-st.color2: #a6e3a1
-st.color10: #a6e3a1
-
-st.color3: #f9e2af
-st.color11: #f9e2af
-
-st.color4: #89b4fa
-st.color12: #89b4fa
-
-st.color5: #f5c2e7
-st.color13: #f5c2e7
-
-st.color6: #94e2d5
-st.color14: #94e2d5
-
-st.color7: #bac2de
-st.color15: #a6adc8
+! Bright colors
+st.color8:  #414868
+st.color9:  #ff899d
+st.color10: #b9f27c
+st.color11: #ff9e64
+st.color12: #7da6ff
+st.color13: #c0a0ff
+st.color14: #89ddff
+st.color15: #c0caf5
 
 ! cursor
 Xcursor.theme: Bibata-Modern-Classic
