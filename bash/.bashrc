@@ -6,10 +6,10 @@
 export PS1='\[\e[92m\]\u\[\e[0m\] in \[\e[96m\]\w\[\e[0m\] \[\e[97m\]\\$\[\e[0m\] '
 
 # Alias
-alias ls='eza --color always'
-alias ll='eza -lah --color always'
-alias la='eza -a --color always'
-alias l='eza -lah --color always'
+alias ls='eza --color always --icons always'
+alias ll='eza -lah --color always --icons always'
+alias la='eza -a --color always --icons always'
+alias l='eza -lah --color always --icons always'
 alias rel="xrdb merge ~/.Xresources && kill -USR1 $(pidof st)"
 
 alias pacs='doas pacman -S'
@@ -25,6 +25,9 @@ alias c='clear'
 
 # Zoxide
 eval "$(zoxide init bash)"
+
+# Starship
+eval "$(starship init bash)"
 
 # Bash Completion
 if [ -f /usr/share/bash-completion/bash_completion ]; then

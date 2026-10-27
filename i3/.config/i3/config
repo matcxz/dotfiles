@@ -5,12 +5,12 @@ set $mod Mod4
 font pango:JetBrainsMono Nerd Font, Noto Color Emoji 10
 
 # Gaps
-default_border pixel 2
+default_border pixel 1
 
 gaps inner 8
 gaps outer 4
 
-smart_gaps on
+#smart_gaps on
 
 hide_edge_borders both
 
@@ -72,8 +72,7 @@ bindsym $mod+Return exec st
 bindsym $mod+Shift+q kill
 
 # start program launcher
-bindsym $mod+d exec dmenu_run
-#bindsym $mod+d exec rofi -show drun
+bindsym $mod+d exec rofi -show drun
 
 bindsym $mod+Shift+Return exec thunar
 
