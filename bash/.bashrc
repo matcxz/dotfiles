@@ -22,9 +22,6 @@ alias fast='fastfetch -c examples/13.jsonc'
 alias c='clear'
 alias vim='nvim'
 
-# Zoxide
-eval "$(zoxide init bash)"
-
 # Starship
 eval "$(starship init bash)"
 
@@ -32,3 +29,6 @@ eval "$(starship init bash)"
 if [ -f /usr/share/bash-completion/bash_completion ]; then
   . /usr/share/bash-completion/bash_completion
 fi
+
+# Zoxide
+eval "$(zoxide init bash)"
