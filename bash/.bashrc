@@ -17,11 +17,10 @@ alias pacsyu='doas pacman -Syu'
 alias pacrns='doas pacman -Rns'
 alias pacr='doas pacman -R'
 
-alias rm='rm -rf'
-
 alias cd='z'
 alias fast='fastfetch -c examples/13.jsonc'
 alias c='clear'
+alias vim='nvim'
 
 # Zoxide
 eval "$(zoxide init bash)"
