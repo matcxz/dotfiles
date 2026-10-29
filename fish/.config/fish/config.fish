@@ -11,7 +11,7 @@ alias pacs='doas pacman -S'
 alias pacsyu='doas pacman -Syu'
 alias pacrns='doas pacman -Rns'
 alias pacr='doas pacman -R'
-alias cat='bat --theme="Catppuccin Mocha" --paging=never'
+alias cat='bat'
 alias btw='echo I use Arch, btw'
 alias vim='nvim'
 
