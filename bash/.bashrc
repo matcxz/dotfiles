@@ -23,7 +23,7 @@ alias c='clear'
 alias vim='nvim'
 
 # Starship
-eval "$(starship init bash)"
+#eval "$(starship init bash)"
 
 # Bash Completion
 if [ -f /usr/share/bash-completion/bash_completion ]; then
@@ -32,3 +32,11 @@ fi
 
 # Zoxide
 eval "$(zoxide init bash)"
+
+# Automatically added by the Guix install script.
+if [ -n "$GUIX_ENVIRONMENT" ]; then
+    if [[ $PS1 =~ (.*)"\\$" ]]; then
+        PS1="${BASH_REMATCH[1]} [env]\\\$ "
+    fi
+fi
+
