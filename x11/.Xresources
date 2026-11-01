@@ -29,3 +29,33 @@ st.color15: #c0caf5
 ! cursor
 Xcursor.theme: Bibata-Modern-Classic
 Xcursor.size: 16
+
+! Xterm
+XTerm*faceName: JetBrainsMono Nerd Font Mono
+XTerm*faceSize: 12
+
+XTerm*termName: xterm-256color
+XTerm*loginShell: true
+XTerm*utf8: 2
+XTerm*locale: true
+XTerm*metaSendsEscape: true
+XTerm*eightBitInput: false
+
+XTerm*selectToClipboard: true
+XTerm*keepSelection: true
+XTerm*translations: #override \
+    Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+    Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
+
+XTerm*scrollBar: false
+XTerm*saveLines: 10000
+XTerm*scrollKey: true
+XTerm*scrollTtyOutput: false
+
+XTerm*cursorBlink: false
+XTerm*cursorUnderLine: false
+
+XTerm*dynamicColors: true
+XTerm*allowWindowOps: false
+XTerm*allowTitleOps: true
+XTerm*visualBell: false

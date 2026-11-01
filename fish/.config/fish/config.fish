@@ -25,10 +25,10 @@ alias c='clear'
 zoxide init fish | source
 
 # Starship
-starship init fish | source
+#starship init fish | source
 
-function starship_transient_prompt_func
-    starship module character
-end
+#function starship_transient_prompt_func
+#    starship module character
+#end
 
-enable_transience
+#enable_transience

@@ -3,15 +3,10 @@
 [[ $- != *i* ]] && return
 
 # Prompt
-# export PS1='\[\e[92m\]\u\[\e[0m\] in \[\e[96m\]\w\[\e[0m\] \[\e[97m\]\\$\[\e[0m\] '
+export PS1='\[\e[92m\]\u\[\e[0m\] in \[\e[96m\]\w\[\e[0m\] \[\e[97m\]\\$\[\e[0m\] '
+#export PS1='\w \\$ '
 
 # Alias
-alias ls='eza --color always'
-alias ll='eza -lah --color always'
-alias la='eza -a --color always'
-alias l='eza -lah --color always'
-alias rel="xrdb merge ~/.Xresources && kill -USR1 $(pidof st)"
-
 alias pacs='doas pacman -S'
 alias pacsyu='doas pacman -Syu'
 alias pacrns='doas pacman -Rns'
