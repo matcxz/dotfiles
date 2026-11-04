@@ -3,8 +3,8 @@
 [[ $- != *i* ]] && return
 
 # Prompt
-export PS1='\[\e[92m\]\u\[\e[0m\] in \[\e[96m\]\w\[\e[0m\] \[\e[97m\]\\$\[\e[0m\] '
-#export PS1='\w \\$ '
+# export PS1='\w \\$ '
+export PS1='\W \\$ '
 
 # Alias
 alias pacs='doas pacman -S'

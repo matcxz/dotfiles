@@ -1,19 +1,20 @@
 set fish_greeting ""
 
-# Alias
-alias ls='eza --icons always'
-alias ll='eza -lah --icons always'
-alias la='eza -a --icons always'
-alias l='eza -lah --icons always'
+# Path
+set -gx PATH $HOME/.local/bin $PATH
 
-#alias vim='nvim'
+# Alias
+alias ls='eza'
+alias ll='eza -lah'
+alias la='eza -a'
+alias l='eza -lah'
+
 alias pacs='doas pacman -S'
 alias pacsyu='doas pacman -Syu'
 alias pacrns='doas pacman -Rns'
 alias pacr='doas pacman -R'
 alias cat='bat'
 alias btw='echo I use Arch, btw'
-alias vim='nvim'
 
 alias rm='rm -rf'
 
